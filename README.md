@@ -54,9 +54,9 @@ The process of decryption of an AES ciphertext is similar to the encryption proc
 # Tasks
 1.The first is a webcam that can be interfaced by OpenCV and imports facial recognition libraries.
 
-2.In this we make sure that pynq will take input of every other frame and process the image and detects the faces in the frame
+2.In this we make sure that pynq will take input of every other frame and process the image and detects the faces in the frame.
 
-3.now we have to see detected faces match any of the facial encoding and see that if matched it shows detected if not it tells unknown
+3.now we have to see detected faces match any of the facial encoding and see that if it is matched it shows detected if not it tells unknown.
 
 
 
