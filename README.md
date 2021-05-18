@@ -13,7 +13,7 @@ Implementation strategy
 
 # Implementation
 
-It creates I/O Driver objects using OpenCV2 Library to interface a webcam and uses the PYNQ library to interface the HDMI output. After instantiating each driver, the program will import the facial recognition library and all the images and names for each identified individual. Once completed, PYNQ will input every other frame, process the image, and detect any faces in the frame. In shunt, the program will look to see if the detected face matches any of the facial encodings from the identified individuals. If the face matches, the system will print their name under their face or print "UNKNOWN" if the face is not recognized.
+It creates I/O Driver objects using OpenCV2 Library to interface a webcam and uses the PYNQ library . After instantiating each driver, the program will import the facial recognition library and all the images and names for each identified individual. Once completed, PYNQ will input every other frame, process the image, and detect any faces in the frame. In shunt, the program will look to see if the detected face matches any of the facial encodings from the identified individuals. If the face matches, the system will print their name under their face or print "UNKNOWN" if the face is not recognized.
 
 AES encryption process consists of several rounds a typical round of AES encryption. Each round comprises of four sub-processes. 
 Byte Substitution (SubBytes)
@@ -40,8 +40,9 @@ The process of decryption of an AES ciphertext is similar to the encryption proc
 
 
 # Tasks
-1.
-2.
+1.The first is a webcam that can be interfaced by OpenCV and imports facial recognition libraries.
+2.In this we make sure that pynq will take input of every other frame and process the image and detects the faces in the frame
+3.now we have to see detected faces match any of the facial encoding and see that if matched it shows detected if not it tells unknown
 
 
 
