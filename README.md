@@ -50,5 +50,4 @@ The process of decryption of an AES ciphertext is similar to the encryption proc
 
 ->Task1 - 2hours
 ->Task2 - 2hours
-
 ->Task3 - 2hours
