@@ -1,4 +1,4 @@
-# Encrypt, Decrypt based on face recognition
+# Encryption Decryption of messages based on facial recognition
 Venkat Sai Akshith V,Anshasi said 
 
 # Overview
