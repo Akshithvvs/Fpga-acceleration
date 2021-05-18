@@ -13,12 +13,13 @@ Implementation strategy
 
 # Implementation
 
-It creates I/O Driver objects using OpenCV2 Library to interface a webcam and uses the PYNQ library . After instantiating each driver, the program will import the facial recognition library and all the images and names for each identified individual. Once completed, PYNQ will input every other frame, process the image, and detect any faces in the frame. In shunt, the program will look to see if the detected face matches any of the facial encodings from the identified individuals. If the face matches, the system will print their name under their face or print "UNKNOWN" if the face is not recognized.\n
+It creates I/O Driver objects using OpenCV2 Library to interface a webcam and uses the PYNQ library . After instantiating each driver, the program will import the facial recognition library and all the images and names for each identified individual. Once completed, PYNQ will input every other frame, process the image, and detect any faces in the frame. In shunt, the program will look to see if the detected face matches any of the facial encodings from the identified individuals. If the face matches, the system will print their name under their face or print "UNKNOWN" if the face is not recognized.
 
 AES encryption process consists of several rounds a typical round of AES encryption. Each round comprises of four sub-processes. 
 Byte Substitution (SubBytes)
 The 16 input bytes are substituted by looking up a fixed table (S-box) given in design. The result is in a matrix of four rows and four columns.
 Shiftrows
+
 Each of the four rows of the matrix is shifted to the left. Any entries that ‘fall off’ are re-inserted on the right side of row. Shift is carried out as follows −
 •	First row is not shifted.
 •	Second row is shifted one (byte) position to the left.
@@ -29,19 +30,26 @@ MixColumns
 
 Each column of four bytes is now transformed using a special mathematical function. This function takes as input the four bytes of one column and outputs four completely new bytes, which replace the original column. The result is another new matrix consisting of 16 new bytes. it should be noted that this step is not performed in the last round.
 Addroundkey
+
 The 16 bytes of the matrix are now considered as 128 bits and are XORed to the 128 bits of the round key. If this is the last round then the output is the ciphertext. Otherwise, the resulting 128 bits are interpreted as 16 bytes and we begin another similar round.
 Decryption Process
+
 The process of decryption of an AES ciphertext is similar to the encryption process in the reverse order. Each round consists of the four processes conducted in the reverse order −
 •	Add round key
+
 •	Mix columns
+
 •	Shift rows
+
 •	Byte substitution
 
 
 
 # Tasks
 1.The first is a webcam that can be interfaced by OpenCV and imports facial recognition libraries.
+
 2.In this we make sure that pynq will take input of every other frame and process the image and detects the faces in the frame
+
 3.now we have to see detected faces match any of the facial encoding and see that if matched it shows detected if not it tells unknown
 
 
