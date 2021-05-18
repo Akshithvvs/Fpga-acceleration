@@ -62,18 +62,18 @@ The process of decryption of an AES ciphertext is similar to the encryption proc
 (optional) Said 3 hours
 
 5.Creating Jupiter notebook for testing FPGA AES encryption overlay by
-encrypting/decrypting a plaintext Said 3 hours
+encrypting/decrypting a plaintext Said 3 hours.
 
 6.Creating Jupiter notebook for executing timing analysis between CPU and FPGA
-encryption overlay (optional) Said 3 hours
+encryption overlay (optional) Said 3 hours.
 
-7. Creating HLS code for encryption and decryption using Vitis security libraries Said 3
-hours
+7.Creating HLS code for encryption and decryption using Vitis security libraries Said 3
+hours.
 
-8. Creating Vivado project to create block design for the encryption/decryption overlay
-Said 3 hours
+8.Creating Vivado project to create block design for the encryption/decryption overlay
+Said 3 hours.
 
-9. Integration between Face recognition/AES encryption/decryption overlay in Vivado
-block design Akshith/Said 3 hours
+9.Integration between Face recognition/AES encryption/decryption overlay in Vivado
+block design Akshith/Said 3 hours.
 
-10.Testing the integrated design in Jupiter Akshith/Said 3 hours
+10.Testing the integrated design in Jupiter Akshith/Said 3 hours.
