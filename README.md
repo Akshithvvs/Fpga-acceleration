@@ -77,3 +77,12 @@ Said 3 hours.
 block design Akshith/Said 3 hours.
 
 10.Testing the integrated design in Jupiter Akshith/Said 3 hours.
+
+
+# Stretch goals:
+1. Encryption/decryption of the recognized face and storing it in a database
+ 
+2. Implementing recognition algorithms for iris/ finger print
+ 
+3. Implementing other types of recognition patterns such as a wave or special move to
+decrypt a message.
