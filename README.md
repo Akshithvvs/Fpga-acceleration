@@ -7,7 +7,6 @@ Our aim is to encrypt/ decrypt some type of data such as an image/written messag
 # Background
 
 Data existing on the cloud are massive and certain data are sensitive by nature and could present serious implication on an individual if it gets accessed by the wrong person. We wanted to implement this project because it adds to the data access security and allows authentication to the person who is trying to access sensitive data.   
-Implementation strategy
 
 
 # Implementation
