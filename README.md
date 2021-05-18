@@ -52,31 +52,31 @@ The process of decryption of an AES ciphertext is similar to the encryption proc
 
 
 # Tasks
-1.The first is a webcam that can be interfaced by OpenCV and imports facial recognition libraries. Akshith (2 hrs)
+1.The first is a webcam that can be interfaced by OpenCV and imports facial recognition libraries.- Akshith (2 hrs)
 
-2.In this we make sure that pynq will take input of every other frame and process the image and detects the faces in the frame. Akshith/said (2hrs)
+2.In this we make sure that pynq will take input of every other frame and process the image and detects the faces in the frame.- Akshith/said (2hrs)
 
-3.now we have to see detected faces match any of the facial encoding and see that if it is matched it shows detected if not it tells unknown. Akshith/said (2 hr)
+3.now we have to see detected faces match any of the facial encoding and see that if it is matched it shows detected if not it tells unknown. - Akshith/said (2 hr)
 
 4.Creating Jupiter notebook for implementing a CPU AES encryption algorithm
-(optional) Said 3 hours
+(optional)-Said 3 hours
 
 5.Creating Jupiter notebook for testing FPGA AES encryption overlay by
-encrypting/decrypting a plaintext  Said 3 hours.
+encrypting/decrypting a plaintext - Said 3 hours.
 
 6.Creating Jupiter notebook for executing timing analysis between CPU and FPGA
-encryption overlay (optional)  Said 3 hours.
+encryption overlay (optional) -Said 3 hours.
 
-7.Creating HLS code for encryption and decryption using Vitis security libraries Said 3
+7.Creating HLS code for encryption and decryption using Vitis security libraries - Said 3
 hours.
 
-8.Creating Vivado project to create block design for the encryption/decryption overlay
+8.Creating Vivado project to create block design for the encryption/decryption overlay -
 Said 3 hours.
 
 9.Integration between Face recognition/AES encryption/decryption overlay in Vivado
-block design Akshith/Said 3 hours.
+block design - Akshith/Said 3 hours.
 
-10.Testing the integrated design in Jupiter Akshith/Said 3 hours.
+10.Testing the integrated design in Jupiter Akshith/Said -3 hours.
 
 
 # Stretch goals:
