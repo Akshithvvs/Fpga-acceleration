@@ -2,8 +2,7 @@
 Venkat Sai Akshith V,Anshasi said 
 
 # Overview
-This work present hidden message will be encrypted/decrypted based on  facial recognition using Advanced Encryption
-Standard (AES).
+Our project aims to encrypt/ decrypt some type of data such as an image/written message using AES encryption/decryption algorithm, the decryption and encryption is triggered by the facial recognition algorithm.
 
 # Background
 
