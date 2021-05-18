@@ -2,7 +2,7 @@
 Venkat Sai Akshith V,Anshasi said 
 
 # Overview
-Our project aims to encrypt/ decrypt some type of data such as an image/written message using AES encryption/decryption algorithm, the decryption and encryption is triggered by the facial recognition algorithm.
+Our aim is to encrypt/ decrypt some type of data such as an image/written message using AES encryption/decryption algorithm, the decryption and encryption is triggered by the facial recognition algorithm.
 
 # Background
 
